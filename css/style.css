@@ -9,6 +9,13 @@ body {
     background-color: lightgrey;
 }
 
+.background {
+    background-image: url(../img/bnb.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .base {
     height: 91vh;
     width: 50vh;
@@ -27,7 +34,7 @@ body {
 }
 
 #roma {
-    position: relative;
+    position: absolute;
     top: 1vh;
     left: 1vh;
     background-image: url(../img/roma.jpg);
@@ -68,4 +75,8 @@ h1 {
     bottom: 0;
     left: 0;
     background-color: rgba(255,255,255,0.3);
+}
+
+#sfondo {
+    background-color: rgba(255,255,255,0.6);
 }
