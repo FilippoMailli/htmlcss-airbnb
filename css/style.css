@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Bitter', serif;
 }
 
 body {
@@ -30,6 +31,7 @@ body {
     top: 1vh;
     left: 1vh;
     background-image: url(../img/roma.jpg);
+    background-color: rgba(255,255,255,0.2);
 }
 
 #cop {
@@ -44,4 +46,18 @@ body {
     top: 61vh;
     left: 1vh;
     background-image: url(../img/tokyo.jpg);
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.testo {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
