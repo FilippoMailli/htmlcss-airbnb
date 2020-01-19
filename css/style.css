@@ -4,12 +4,44 @@
     box-sizing: border-box;
 }
 
-.base {
-    height: 90vh;
-    width: 50vh;
+body {
     background-color: lightgrey;
+}
+
+.base {
+    height: 91vh;
+    width: 50vh;
+    background-color: white;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.blocco {
+    height: 29vh;
+    width: 48vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#roma {
+    position: absolute;
+    top: 1vh;
+    left: 1vh;
+    background-image: url(../img/roma.jpg);
+}
+
+#cop {
+    position: absolute;
+    top: 31vh;
+    left: 1vh;
+    background-image: url(../img/cop.jpg);
+}
+
+#tokyo {
+    position: absolute;
+    top: 61vh;
+    left: 1vh;
+    background-image: url(../img/tokyo.jpg);
 }
